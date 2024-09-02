@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-
+import Header from '../components/Header.astro';
 const pageTitle = 'Je te lasserai des mots'
 ---
 
@@ -13,9 +13,7 @@ const pageTitle = 'Je te lasserai des mots'
 		<title>{pageTitle}</title>
 	</head>
     <body>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/blog/">Blog</a>
+        <Header />
 
         <h1>{pageTitle}</h1>
         <p>lorem ipsum I wanna learn latin and grow wasabi</p>
@@ -25,5 +23,9 @@ const pageTitle = 'Je te lasserai des mots'
         <ul>
             <li><a href="/posts/post-2/">Post 2</a></li>
           </ul>
+        <Footer />
+        <script> 
+            import "../scripts/menu" 
+        </script>
       </body>
 </html>
