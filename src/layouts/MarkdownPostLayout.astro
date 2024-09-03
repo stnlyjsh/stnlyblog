@@ -1,0 +1,38 @@
+---
+const { frontmatter } = Astro.props;
+---
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Block with Different Sizes</title>
+    <style>
+        .titleBlock {
+            display: block;
+            width: fit-content; /* Adjust width to content */
+            /*margin: 0 auto; /* Center block horizontally (optional) */
+        }
+        .text-line {
+            display: block; /* Each line should be on a new line */
+        }
+        .line1 {
+            font-size: 50px; /* Adjust font size for the first line */
+            font-weight: bold;
+            font-style: ;
+            color: ;
+        }
+        .line2 {
+            font-size: 24px; /* Adjust font size for the second line */
+            font-weight: ;
+            font-style: ;
+            color: ;
+        }
+    </style>
+</head>
+<body>
+    <div class="titleBlock">
+        <span class="text-line line1">{frontmatter.title}</span>
+        <span class="text-line line2">{frontmatter.subtitle}</span>
+    </div>
+<slot />
+<p>{frontmatter.feeling}<br>{frontmatter.pubDate}</p>
+</body>
