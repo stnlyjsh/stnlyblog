@@ -1,12 +1,12 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro"
-const allPosts = await Astro.glob('./posts/*.md');
-const pageTitle = 'Je te lasserai des mots'
+const allPosts = await Astro.glob('./progressReports/*.md');
+const pageTitle = 'Progress Reports'
 ---
 
 <html lang="en">
     <BaseLayout pageTitle={pageTitle}>
-        <p>TW: cringe & sincere posting, bad writing</p>
+        <p>mostly about coding</p>
         {allPosts.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
     </BaseLayout>
 </html>

@@ -1,5 +1,6 @@
 ---
 const { frontmatter } = Astro.props;
+import BaseLayout from "./BaseLayout.astro";
 ---
 <head>
     <meta charset="UTF-8">
@@ -28,11 +29,11 @@ const { frontmatter } = Astro.props;
         }
     </style>
 </head>
-<body>
+<BaseLayout>
     <div class="titleBlock">
         <span class="text-line line1">{frontmatter.title}</span>
         <span class="text-line line2">{frontmatter.subtitle}</span>
     </div>
 <slot />
 <p>{frontmatter.feeling}<br>{frontmatter.pubDate}</p>
-</body>
+</BaseLayout>
