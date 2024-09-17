@@ -4,8 +4,6 @@ title: I'm getting mogged by homeless people
 author: Josh
 description: and very emotional
 image:
-    url: "https://docs.astro.build/assets/arc.webp"
-    alt: "The Astro logo on a dark background with a purple gradient arc."
 pubDate: 9-9-2024
 tags: ["sincere"]
 ---
