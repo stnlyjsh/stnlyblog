@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: You've really grown so much!!
 author: Josh
-description: I think I was just a little burnt out
+subtitle: I think I was just a little burnt out
 feeling: out of it, but hopeful?
 image:
 pubDate: 9-17-2024

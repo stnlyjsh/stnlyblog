@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: I'm getting mogged by homeless people
 author: Josh
-description: and very emotional
+subtitle: and very emotional
 image:
 pubDate: 9-9-2024
 tags: ["sincere"]
