@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(205, 229, 202);
+    background-color: #ddedea;
     font-family: sans-serif;
   }
   
@@ -31,16 +31,18 @@ html {
     width: 40px;
     height: 5px;
     margin-bottom: 10px;
-    background-color: #ff9776;
+    background-color: #fcf4dd;
   }
 .nav-links {
+  color: green
   width: 100%;
   top: 5rem;
   left: 48px;
-  background-color: #ff9776;
+  background-color: #daeaf6;
   display: none;
   margin: 0;
 }
+
 
 .nav-links a {
   display: block;
@@ -50,11 +52,12 @@ html {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
+  background-color: #daeaf6;
 }
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #ff9776;
+  background-color: #fce1e4;
 }
 
 .expanded {
