@@ -1,0 +1,3 @@
+So my first solutions was **insert link to python repo** a python library which aggregates a bunch of sports data and then allows you to pull it in JSON format. This would allow me to write a script to pull data, dump it into other files, and upload those files to claude to expand his context window to include /some/ data for the current season.
+
+At this point I was using Claude's front end, but I quickly found out that even with premium I was not able to send nearly as much data as I wanted before they told me it'd be too expensive to run. This was also partially caused by horrible formatting and tons of usesless data in the data I was pulling. So I provided Claude with a schedule & the win/loss records for the season so far and asked him to generate me some picks!

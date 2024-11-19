@@ -1,0 +1,12 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+const allPosts = await Astro.glob('./projects/*.md');
+const pageTitle = 'learning in public'
+---
+
+<html lang="en">
+    <BaseLayout pageTitle={pageTitle}>
+        <p>The only real project so far is claudefidence pool.</p>
+        {allPosts.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+    </BaseLayout>
+</html>
